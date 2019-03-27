@@ -49,3 +49,7 @@ body {
   transition: all 0.05s;
   transition-timing-function: ease-in-out;
 }
+
+.notransition {
+  transition: none !important;
+}
