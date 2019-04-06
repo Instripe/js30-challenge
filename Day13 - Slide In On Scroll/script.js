@@ -33,13 +33,6 @@ function checkSlide(e) {
         } else {
             slide.classList.remove('active');
         }
-
-        console.log(slide.src, isHalfShown);
-        
-
-
-        //const bottomPosition = window.scrollY + window.innerHeight;
-        //const slideInAt = bottomPosition - slide.height / 2;
     })
 }
 
