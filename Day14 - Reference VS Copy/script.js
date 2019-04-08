@@ -1,4 +1,11 @@
 // start with strings, numbers and booleans
+//Data is a copy not a reference. Example:
+// let age = 100;
+// let age2 = age;
+// console.log(age, age2); // -> 100, 100
+// age = 200;
+// console.log(age, age2); // -> 200, 100
+
 
 // Let's say we have an array
 const players = ['Wes', 'Sarah', 'Ryan', 'Poppy'];
